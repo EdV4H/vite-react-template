@@ -6,7 +6,9 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended",
+    "prettier"
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -21,7 +23,6 @@ module.exports = {
     "@typescript-eslint",
     "import",
     "unused-import",
-    "prettier",
   ],
   rules: {
     // https://github.com/sweepline/eslint-plugin-unused-imports
