@@ -8,7 +8,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier"
+    "prettier",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -18,12 +18,7 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: [
-    "react",
-    "@typescript-eslint",
-    "import",
-    "unused-import",
-  ],
+  plugins: ["react", "@typescript-eslint", "import", "unused-imports"],
   rules: {
     // https://github.com/sweepline/eslint-plugin-unused-imports
     "@typescript-eslint/no-unused-vars": "off",
